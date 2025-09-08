@@ -9,9 +9,10 @@
   "modules-right": [
     "group/tray-expander",
     "bluetooth",
-    "network",
     "pulseaudio",
+    "network",
     "cpu",
+    "memory",
     "battery",
     "custom/weather",
   ],
@@ -29,7 +30,7 @@
       "7": "7",
       "8": "8",
       "9": "9",
-      "active": "",
+      "active": "",
     },
     "persistent-workspaces": {
       "1": [],
@@ -40,7 +41,7 @@
     },
   },
   "custom/omarchy": {
-    "format": "",
+    "format": "",
     "on-click": "omarchy-menu",
     "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space",
   },
@@ -57,9 +58,20 @@
     "format": "󰍛",
     "on-click": "alacritty -e btop",
   },
+  "memory": {
+    "interval": 5,
+    "format": "󰨅",
+    "format-alt": "{used}G",
+    "tooltip": true,
+    "tooltip-format": "{percentage}% {used}G/{total}G",
+    "states": {
+      "warning": 70,
+      "critical": 90,
+    },
+  },
   "clock": {
     "format": "{:%A %H:%M}",
-    "format-alt": "{:%d %B W%V %Y}",
+    "format-alt": "{:%d %B %Y}",
     "tooltip": false,
     "on-click-right": "omarchy-cmd-tzupdate",
   },
