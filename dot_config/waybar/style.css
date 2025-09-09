@@ -34,14 +34,17 @@
 
 #tray,
 #cpu,
+#memory,
 #battery,
 #network,
 #bluetooth,
 #pulseaudio,
 #custom-omarchy,
-#custom-update {
+#custom-update,
+#custom-weather {
   min-width: 12px;
   margin: 0 7.5px;
+  font-size: 14px;
 }
 
 #custom-expand-icon {
@@ -53,11 +56,12 @@ tooltip {
 }
 
 #custom-update {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 #clock {
   margin-left: 8.75px;
+  font-size: 12px;
 }
 
 .hidden {

@@ -128,7 +128,7 @@
     "format": "{}°",
     "tooltip": true,
     "interval": 3600,
-    "exec": "wttrbar --date-format \"%m/%d\" --location \"Cape Town\" --hide-conditions",
+    "exec": "wttrbar --nerd --date-format \"%m/%d\" --location \"Cape Town\" --hide-conditions",
     "return-type": "json",
   },
   "group/tray-expander": {
