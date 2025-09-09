@@ -63,7 +63,7 @@
     "format": "󰨅",
     "format-alt": "{used}G",
     "tooltip": true,
-    "tooltip-format": "{percentage}% {used}G/{total}G",
+    "tooltip-format": "{percentage}% {used}/{total}",
     "states": {
       "warning": 70,
       "critical": 90,
