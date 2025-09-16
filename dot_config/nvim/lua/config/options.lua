@@ -3,4 +3,6 @@
 -- Add any additional options here
 -- vim.opt.relativenumber = false
 vim.opt.relativenumber = true
-vim.opt.foldmethod = "manual"
+-- vim.opt.foldmethod = "expr"
+-- vim.opt.foldlevel = 20
+-- vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
