@@ -70,7 +70,7 @@
     },
   },
   "clock": {
-    "format": "{:%A %H:%M}",
+    "format": "{:L%A %H:%M}",
     "format-alt": "{:%d %B %Y}",
     "tooltip": false,
     "on-click-right": "omarchy-cmd-tzupdate",
