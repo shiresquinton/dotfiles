@@ -105,7 +105,9 @@ source $ZSH/oh-my-zsh.sh
 alias ff="fastfetch"
 alias cm="cmatrix"
 alias ls="eza --long --color=always --icons=always --no-user"
+alias lsa="eza --long --all --color=always --icons=always --no-user"
 alias v="nvim"
+alias cd="z"
 
 # Load NVM
 export NVM_DIR="$HOME/.config/nvm"
