@@ -1,17 +1,22 @@
 @import "../omarchy/current/theme/swayosd.css";
 
 window {
-  border-radius: 0;
+  border-radius: 8px;
   opacity: 0.97;
-  border: 2px solid @border-color;
+  /* border: 2px solid @border-color; */
+  /* background-color: @background-color; */
 
-  background-color: @background-color;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(to right, #1a1a1a, #1a1a1a),
+    linear-gradient(to bottom, #98e024, #8a67c9);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
 }
 
 label {
   font-family: JetBrainsMono Nerd Font;
   font-size: 11pt;
-
   color: @label;
 }
 
